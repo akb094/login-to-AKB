@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    
+    background:url(bgff.jpg) no-repeat center fixed;
+    background-size: cover;
+    text-align: center;
+    
+}
+.container{
+    font-family: 'Alkatra', cursive;
+    border:4px solid purple;
+    border-radius: 20px;
+    text-align:center;
+    padding:20px 60px;
+    margin:10px;
+    color:white;
+    position: absolute;
+    top:15%;
+    left:40%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.container h1{
+    width:50%;
+    font-size:40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 25px;
+    padding:13px 0px;
+}
+.box{
+    width:100%;
+    border-bottom: 2px solid purple;
+    margin:30px 0px;
+}
+.box input{
+    font-family: 'Alkatra', cursive;
+    background: none;
+    width:75%;
+    font-size: 20px;
+    border:none;
+    outline:none;
+    color:black;
+    padding:5px 10px;
+}
+.btn{
+    cursor:pointer;
+    outline:none;
+    width:50%;
+    margin:12px 0;
+    padding:10px 21px;
+    font-weight:bold;
+    border-radius: 10px;
+    border:2px solid purple;
+    font-size:18px;
+    background: none;
+    color:black;
+}
+.box i{
+    width:25px;
+    text-align:center;
+
+    
+}
+.btn:hover{
+    color:black;
+    opacity:0.5;
+    background: white;
+    color:purple;
+}
+.container:hover{
+    background-color:white;
+    border:4px solid purple;
+    border-radius: 20px;
+    text-align:center;
+    padding:20px 60px;
+    margin:10px;
+    color:black;
+    position: absolute;
+    top:15%;
+    left:40%;
+    
+    opacity:0.4;
+}
