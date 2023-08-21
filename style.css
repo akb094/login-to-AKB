@@ -12,7 +12,7 @@ body{
 }
 .container{
     font-family: 'Alkatra', cursive;
-    border:4px solid purple;
+    border:4px solid #000000;
     border-radius: 20px;
     text-align:center;
     padding:20px 60px;
@@ -21,10 +21,15 @@ body{
     position: absolute;
     top:15%;
     left:40%;
+    transition: transform 0.4s;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -ms-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
 }
 .container h1{
     width:50%;
@@ -74,8 +79,9 @@ body{
     color:purple;
 }
 .container:hover{
+    transform: scale(1.15);
     background-color:white;
-    border:4px solid purple;
+    border:4px solid #000000;
     border-radius: 20px;
     text-align:center;
     padding:20px 60px;
@@ -84,6 +90,13 @@ body{
     position: absolute;
     top:15%;
     left:40%;
-    
     opacity:0.4;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
 }
